@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709DD26E1ADC3E3100BD5BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709DD26D1ADC3E3100BD5BD8 /* AppDelegate.swift */; };
+		709DD2701ADC3E3100BD5BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709DD26F1ADC3E3100BD5BD8 /* ViewController.swift */; };
+		709DD2731ADC3E3100BD5BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709DD2711ADC3E3100BD5BD8 /* Main.storyboard */; };
+		709DD2751ADC3E3100BD5BD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709DD2741ADC3E3100BD5BD8 /* Images.xcassets */; };
+		709DD2781ADC3E3100BD5BD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709DD2761ADC3E3100BD5BD8 /* LaunchScreen.xib */; };
+		709DD2841ADC3E3100BD5BD8 /* UnilaserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709DD2831ADC3E3100BD5BD8 /* UnilaserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		709DD27E1ADC3E3100BD5BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 709DD2601ADC3E3100BD5BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709DD2671ADC3E3100BD5BD8;
+			remoteInfo = Unilaser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		709DD2681ADC3E3100BD5BD8 /* Unilaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unilaser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		709DD26C1ADC3E3100BD5BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709DD26D1ADC3E3100BD5BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		709DD26F1ADC3E3100BD5BD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		709DD2721ADC3E3100BD5BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		709DD2741ADC3E3100BD5BD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		709DD2771ADC3E3100BD5BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		709DD27D1ADC3E3100BD5BD8 /* UnilaserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnilaserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		709DD2821ADC3E3100BD5BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709DD2831ADC3E3100BD5BD8 /* UnilaserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnilaserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709DD2651ADC3E3100BD5BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709DD27A1ADC3E3100BD5BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		709DD25F1ADC3E3100BD5BD8 = {
+			isa = PBXGroup;
+			children = (
+				709DD26A1ADC3E3100BD5BD8 /* Unilaser */,
+				709DD2801ADC3E3100BD5BD8 /* UnilaserTests */,
+				709DD2691ADC3E3100BD5BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		709DD2691ADC3E3100BD5BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709DD2681ADC3E3100BD5BD8 /* Unilaser.app */,
+				709DD27D1ADC3E3100BD5BD8 /* UnilaserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709DD26A1ADC3E3100BD5BD8 /* Unilaser */ = {
+			isa = PBXGroup;
+			children = (
+				709DD26D1ADC3E3100BD5BD8 /* AppDelegate.swift */,
+				709DD26F1ADC3E3100BD5BD8 /* ViewController.swift */,
+				709DD2711ADC3E3100BD5BD8 /* Main.storyboard */,
+				709DD2741ADC3E3100BD5BD8 /* Images.xcassets */,
+				709DD2761ADC3E3100BD5BD8 /* LaunchScreen.xib */,
+				709DD26B1ADC3E3100BD5BD8 /* Supporting Files */,
+			);
+			path = Unilaser;
+			sourceTree = "<group>";
+		};
+		709DD26B1ADC3E3100BD5BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709DD26C1ADC3E3100BD5BD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		709DD2801ADC3E3100BD5BD8 /* UnilaserTests */ = {
+			isa = PBXGroup;
+			children = (
+				709DD2831ADC3E3100BD5BD8 /* UnilaserTests.swift */,
+				709DD2811ADC3E3100BD5BD8 /* Supporting Files */,
+			);
+			path = UnilaserTests;
+			sourceTree = "<group>";
+		};
+		709DD2811ADC3E3100BD5BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709DD2821ADC3E3100BD5BD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709DD2671ADC3E3100BD5BD8 /* Unilaser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709DD2871ADC3E3100BD5BD8 /* Build configuration list for PBXNativeTarget "Unilaser" */;
+			buildPhases = (
+				709DD2641ADC3E3100BD5BD8 /* Sources */,
+				709DD2651ADC3E3100BD5BD8 /* Frameworks */,
+				709DD2661ADC3E3100BD5BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unilaser;
+			productName = Unilaser;
+			productReference = 709DD2681ADC3E3100BD5BD8 /* Unilaser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		709DD27C1ADC3E3100BD5BD8 /* UnilaserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709DD28A1ADC3E3100BD5BD8 /* Build configuration list for PBXNativeTarget "UnilaserTests" */;
+			buildPhases = (
+				709DD2791ADC3E3100BD5BD8 /* Sources */,
+				709DD27A1ADC3E3100BD5BD8 /* Frameworks */,
+				709DD27B1ADC3E3100BD5BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709DD27F1ADC3E3100BD5BD8 /* PBXTargetDependency */,
+			);
+			name = UnilaserTests;
+			productName = UnilaserTests;
+			productReference = 709DD27D1ADC3E3100BD5BD8 /* UnilaserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709DD2601ADC3E3100BD5BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Avance BPO";
+				TargetAttributes = {
+					709DD2671ADC3E3100BD5BD8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					709DD27C1ADC3E3100BD5BD8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 709DD2671ADC3E3100BD5BD8;
+					};
+				};
+			};
+			buildConfigurationList = 709DD2631ADC3E3100BD5BD8 /* Build configuration list for PBXProject "Unilaser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 709DD25F1ADC3E3100BD5BD8;
+			productRefGroup = 709DD2691ADC3E3100BD5BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709DD2671ADC3E3100BD5BD8 /* Unilaser */,
+				709DD27C1ADC3E3100BD5BD8 /* UnilaserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709DD2661ADC3E3100BD5BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709DD2731ADC3E3100BD5BD8 /* Main.storyboard in Resources */,
+				709DD2781ADC3E3100BD5BD8 /* LaunchScreen.xib in Resources */,
+				709DD2751ADC3E3100BD5BD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709DD27B1ADC3E3100BD5BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709DD2641ADC3E3100BD5BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709DD2701ADC3E3100BD5BD8 /* ViewController.swift in Sources */,
+				709DD26E1ADC3E3100BD5BD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709DD2791ADC3E3100BD5BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709DD2841ADC3E3100BD5BD8 /* UnilaserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		709DD27F1ADC3E3100BD5BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 709DD2671ADC3E3100BD5BD8 /* Unilaser */;
+			targetProxy = 709DD27E1ADC3E3100BD5BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		709DD2711ADC3E3100BD5BD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709DD2721ADC3E3100BD5BD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		709DD2761ADC3E3100BD5BD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709DD2771ADC3E3100BD5BD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		709DD2851ADC3E3100BD5BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		709DD2861ADC3E3100BD5BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		709DD2881ADC3E3100BD5BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Unilaser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		709DD2891ADC3E3100BD5BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Unilaser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		709DD28B1ADC3E3100BD5BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UnilaserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unilaser.app/Unilaser";
+			};
+			name = Debug;
+		};
+		709DD28C1ADC3E3100BD5BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UnilaserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unilaser.app/Unilaser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709DD2631ADC3E3100BD5BD8 /* Build configuration list for PBXProject "Unilaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709DD2851ADC3E3100BD5BD8 /* Debug */,
+				709DD2861ADC3E3100BD5BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709DD2871ADC3E3100BD5BD8 /* Build configuration list for PBXNativeTarget "Unilaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709DD2881ADC3E3100BD5BD8 /* Debug */,
+				709DD2891ADC3E3100BD5BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		709DD28A1ADC3E3100BD5BD8 /* Build configuration list for PBXNativeTarget "UnilaserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709DD28B1ADC3E3100BD5BD8 /* Debug */,
+				709DD28C1ADC3E3100BD5BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709DD2601ADC3E3100BD5BD8 /* Project object */;
+}
